@@ -1,3 +1,168 @@
+# Jarkom Modul 4 F02 2022
+
+### Anggota:
+
+1. [Andymas Narendra Bagaskara](https://github.com/zaibir123) (05111940000192)
+2. [Jayanti Totti Andhina](https://github.com/JayantiTA) (5025201037)
+3. [Gaudhiwaa Hendrasto](https://github.com/gaudhiwaa) (5025201066)
+
+### 1. CIDR
+
+#### Penentuan Class Subnetting
+
+Class A:
+
+![](./media/image44.png)
+
+Class B:
+
+![](./media/image13.png)
+
+Class C:
+
+![](./media/image23.png)
+
+Class D:
+
+![](./media/image36.png)
+
+Class E:
+
+![](./media/image42.png)
+
+Class F:
+
+![](./media/image40.png)
+
+Class G:
+
+![](./media/image5.png)
+
+Class H:
+
+![](./media/image45.png)
+
+#### CIDR Tree:
+
+![](./media/image38.png)
+
+#### Topologi pada GNS3:
+
+![](./media/image32.png)
+
+#### Setup Network Interfaces
+
+The Resonance:
+
+![](./media/image48.png)
+
+The Order:
+
+![](./media/image31.png)
+
+The Minister:
+
+![](./media/image39.png)
+
+The Dauntless:
+
+![](./media/image33.png)
+
+The Magical:
+
+![](./media/image12.png)
+
+The Instrument:
+
+![](./media/image11.png)
+
+The Profound:
+
+![](./media/image10.png)
+The Firefist:
+
+![](./media/image35.png)
+
+The Queen:
+
+![](./media/image6.png)
+
+Ashaf (50 Host):
+
+![](./media/image1.png)
+
+Guideau (1000 Host):
+
+![](./media/image14.png)
+
+Phanora (150 Host):
+
+![](./media/image28.png)
+Johan (100 Host):
+
+![](./media/image43.png)
+
+Corvekt (200 Host):
+
+![](./media/image21.png)
+Haines (70 Host):
+
+![](./media/image9.png)
+
+Matt Cugatt (120 Host):
+
+![](./media/image41.png)
+
+Spendrow (120 Host):
+
+![](./media/image29.png)
+
+Helga (70 Host):
+
+![](./media/image47.png)
+
+Keith (210 Host):
+
+![](./media/image16.png)
+Oakleave (500 Host):
+
+![](./media/image20.png)
+
+The Beast:
+
+![](./media/image8.png)
+
+The Witch:
+
+![](./media/image26.png)
+
+a.  Uncomment ```net.ipv4.ip_forward=1 pada file /etc/sysctl.conf``` pada semua router.
+
+b.  Pada router The Resonance masukkan command ```iptables -t nat -A POSTROUTING -o eth0 -j MASQUERADE -s 192.200.0.0/16```
+
+c.  Masukkan routing ke dalam router.bash setiap router, kemudian
+     jalankan ```bash router.bash```
+
+The Resonance:
+
+![](./media/image24.png)
+
+The Order:
+
+![](./media/image22.png)
+
+The Minister:
+
+![](./media/image46.png)
+
+The Instrument:
+
+![](./media/image2.png)
+
+The Firefist:
+
+![](./media/image17.png)
+
 ### 2. VLSM
 
 ![](./media/image37.png)
